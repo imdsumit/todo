@@ -1,0 +1,27 @@
+﻿<h1 *ngIf="isAddMode">Add Todo Item</h1>
+<h1 *ngIf="!isAddMode">Edit Todo Item</h1>
+<form [formGroup]="itemForm" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+        <div class="form-group">
+            <label>Description</label>
+            <input type="text" formControlName="description" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.description.errors }" />
+            <div *ngIf="submitted && f.description.errors" class="invalid-feedback">
+                <div *ngIf="f.description.errors.required">Description is required</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group">
+            <label>Is Complete</label>
+            <input type="checkbox" formControlName="isCompleted" class="form-control" />
+        </div>
+    </div>
+    <input type="hidden" formControlName="itemId" />
+    <div class="form-group">
+        <button [disabled]="loading" class="btn btn-primary">
+            <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+            Save
+        </button>
+        <a routerLink="/items" class="btn btn-link">Cancel</a>
+    </div>
+</form>

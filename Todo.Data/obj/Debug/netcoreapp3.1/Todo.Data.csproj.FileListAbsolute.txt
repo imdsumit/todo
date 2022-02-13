@@ -1,0 +1,13 @@
+C:\Users\P1252F8\source\todo\Todo.Data\bin\Debug\netcoreapp3.1\Todo.Data.deps.json
+C:\Users\P1252F8\source\todo\Todo.Data\bin\Debug\netcoreapp3.1\Todo.Data.dll
+C:\Users\P1252F8\source\todo\Todo.Data\bin\Debug\netcoreapp3.1\Todo.Data.pdb
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.csproj.AssemblyReference.cache
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.AssemblyInfoInputs.cache
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.AssemblyInfo.cs
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.csproj.CoreCompileInputs.cache
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.dll
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.pdb
+C:\Users\P1252F8\source\todo\Todo.Data\bin\Debug\netcoreapp3.1\Todo.Data.runtimeconfig.json
+C:\Users\P1252F8\source\todo\Todo.Data\bin\Debug\netcoreapp3.1\Todo.Data.runtimeconfig.dev.json
+C:\Users\P1252F8\source\todo\Todo.Data\obj\Debug\netcoreapp3.1\Todo.Data.genruntimeconfig.cache

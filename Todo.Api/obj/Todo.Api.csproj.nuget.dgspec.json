@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Api\\Todo.Api.csproj": {}
+    "C:\\Users\\P1252F8\\source\\todo\\Todo.Api\\Todo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Api\\Todo.Api.csproj": {
+    "C:\\Users\\P1252F8\\source\\todo\\Todo.Api\\Todo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Api\\Todo.Api.csproj",
+        "projectUniqueName": "C:\\Users\\P1252F8\\source\\todo\\Todo.Api\\Todo.Api.csproj",
         "projectName": "Todo.Api",
-        "projectPath": "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Api\\Todo.Api.csproj",
+        "projectPath": "C:\\Users\\P1252F8\\source\\todo\\Todo.Api\\Todo.Api.csproj",
         "packagesPath": "C:\\Users\\P1252F8\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Api\\obj\\",
+        "outputPath": "C:\\Users\\P1252F8\\source\\todo\\Todo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\P1252F8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Data\\Todo.Data.csproj": {
-                "projectPath": "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Data\\Todo.Data.csproj"
+              "C:\\Users\\P1252F8\\source\\todo\\Todo.Data\\Todo.Data.csproj": {
+                "projectPath": "C:\\Users\\P1252F8\\source\\todo\\Todo.Data\\Todo.Data.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Data\\Todo.Data.csproj": {
+    "C:\\Users\\P1252F8\\source\\todo\\Todo.Data\\Todo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Data\\Todo.Data.csproj",
+        "projectUniqueName": "C:\\Users\\P1252F8\\source\\todo\\Todo.Data\\Todo.Data.csproj",
         "projectName": "Todo.Data",
-        "projectPath": "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Data\\Todo.Data.csproj",
+        "projectPath": "C:\\Users\\P1252F8\\source\\todo\\Todo.Data\\Todo.Data.csproj",
         "packagesPath": "C:\\Users\\P1252F8\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P1252F8\\source\\repos\\Todo\\Todo.Data\\obj\\",
+        "outputPath": "C:\\Users\\P1252F8\\source\\todo\\Todo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\P1252F8\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,6 +113,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.22, )"
